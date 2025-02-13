@@ -15,7 +15,7 @@ urlpatterns = [
         name="book-detail"
     ),
     path(
-        'book/<slug:slug>/',
+        'books/<slug:slug>/',
         BookSlugDeatil.as_view(),
         name="book-slug-detail"
     )
